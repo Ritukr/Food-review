@@ -1,14 +1,15 @@
-In this case study, I have solved a Text Classification problem using different Machine Learning Techniques.
+
+In this case study  using different machine learning techiques i try to solved  a text classification problem.
 Dataset link => https://www.kaggle.com/snap/amazon-fine-food-reviews
 
 Folder Descrptions:
 
-1. Exploratory Analysis and Cleaning:
-This contains a Jupyter Notebook wherein I perform the tasks like reading data, exploratory data analysis, data cleaning, etc.
-This file creates two pickle files namely "final.sqlite" and "list_of_sent_for_input_to_w2v.pkl" which are used in the susequent folders, hence must be saved on your hard disk.
+1. Exploratory Analysis and Cleaning Data:
+Here in this section , with help of  Jupyter Notebook I perform some tasks like reading the data, exploratory data analysis, data cleaning, etc.
+ In this file i creaed two pickles files namely "final.sqlite" and "list_of_sent_for_input_to_w2v.pkl" which are used in the susequent folders.
 
 2. KNN:
-In this folder I use K-Nearest Neighbors classifiers to classify the food reviews using 3 different featurizations namely "Bag of Words", "TFIDF" and "Word to vec", hence I have 3 different Jupyter Notebooks.
+In this section I use K-Nearest Neighbors classifiers to classify the food reviews using 2 different featurizations namely "Bag of Words", "Word to vec", hence I have 2 different Jupyter Notebooks.
 
 3. Naive Bayes:
 In this folder, I apply Naive Bayes algorithm using Bag of Words featurization of the text; with and without Upsampling of the dataset, hence the two Notebooks.
